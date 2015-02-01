@@ -8,7 +8,9 @@
   }
 }(this, function() {
 
-  return function(o, s) {
+  var propByString = {};
+
+  propByString.get = function(s, o) {
     s = s.replace(/\[(\w+)\]/g, '.$1');
     s = s.replace(/^\./, '');
 
@@ -30,5 +32,26 @@
       return o;
     }());
   };
+
+  propByString.set = function(s, u, o) {
+    s = s.replace(/\[(\w+)\]/g, '.$1');
+    s = s.replace(/^\./, '');
+
+    var a = s.split('.');
+
+    return (function iter(object) {
+      var n = a.shift();
+
+      if (!object[n]) {
+        object[n] = {};
+      }
+
+      if (a.length) return iter(object[n]);
+      object[n] = u;
+      return o;
+    }(o));
+  };
+
+  return propByString;
 
 }));
