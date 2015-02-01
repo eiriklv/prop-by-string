@@ -1,0 +1,26 @@
+{
+  "name": "prop-by-string",
+  "version": "1.0.0",
+  "main": "./lib.js",
+  "description": "Get an object property by string literal",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriklv/prop-by-string.git"
+  },
+  "keywords": [
+    "object",
+    "string",
+    "property"
+  ],
+  "author": "Eirik Vullum <evullum@gmail.com> (http://www.evconsult.no/)",
+  "bugs": {
+    "url": "https://github.com/eiriklv/prop-by-string/issues"
+  },
+  "homepage": "https://github.com/eiriklv/prop-by-string",
+  "license": "MIT"
+}
