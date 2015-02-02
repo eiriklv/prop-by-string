@@ -1,8 +1,8 @@
 {
   "name": "prop-by-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib.js",
-  "description": "Get an object property by string literal",
+  "description": "Get and set object properties by string literals",
   "dependencies": {},
   "devDependencies": {
     "nodeunit": "0.9.x"
