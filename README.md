@@ -1,10 +1,10 @@
 prop-by-string
-=============================
+==============
 
 [![Build Status](https://travis-ci.org/eiriklv/prop-by-string.svg?branch=master)](https://travis-ci.org/eiriklv/prop-by-string)
 
 #### Introduction:
-Get an object property by string.
+Get and set an object property by string.
 Supports nested array notation.
 
 ---------------------------------------
