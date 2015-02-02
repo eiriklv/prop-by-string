@@ -2,6 +2,9 @@ prop-by-string
 ==============
 
 [![Build Status](https://travis-ci.org/eiriklv/prop-by-string.svg?branch=master)](https://travis-ci.org/eiriklv/prop-by-string)
+[![npm version](https://badge.fury.io/js/prop-by-string.svg)](http://badge.fury.io/js/prop-by-string)
+[![Dependency Status](https://david-dm.org/eiriklv/prop-by-string.svg)](https://david-dm.org/eiriklv/prop-by-string)
+[![devDependency Status](https://david-dm.org/eiriklv/prop-by-string/dev-status.svg)](https://david-dm.org/eiriklv/prop-by-string#info=devDependencies)
 
 #### Introduction:
 Get and set an object property by string.
